@@ -12,3 +12,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+table {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+th, tr {
+  text-align: left;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+th {
+  border-bottom: 1px solid black;
+}
+
+div.field {
+  width: 50%;
+  display: flex;
+  margin: 10px 0px;
+}
+label {
+  flex: 1;
+}
+
+input {
+  flex: 2;
+  border: 1px solid black;
+  border-radius: 3px;
+  height: 25px;
+}
+
+button.submit {
+  height: 30px;
+  min-width: 150px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  background: #8bc34a;
+  color: #464444;
+  font-size: 16px;
+}
+
+button.delete {
+  background: #d00404;
+  color: white;
+}
+
+.section {
+  margin: 10px;
+}
